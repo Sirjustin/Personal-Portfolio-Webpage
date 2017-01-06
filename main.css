@@ -1,0 +1,23 @@
+html, body, h1, h2,h3, h4, p, div{
+    padding: 0;
+    border: 0;
+    margin:0;
+    
+
+}
+
+
+.bar{
+  font-size:60px;
+    font-weight: bold;
+   font-family:monospace;
+    
+    display: inline;
+}
+.image {
+    width: 30px; /*set the width or max-width*/
+    height: auto; /*this makes sure to maintain the aspect ratio*/
+}
+
+
+
