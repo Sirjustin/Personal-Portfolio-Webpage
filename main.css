@@ -8,16 +8,45 @@ html, body, h1, h2,h3, h4, p, div{
 
 
 .bar{
-  font-size:60px;
+  font-size:40px;
     font-weight: bold;
    font-family:monospace;
     
-    display: inline;
-}
+    		display: inline-block;
+			margin: 0 0.5em;
+		}
 .image {
-    width: 30px; /*set the width or max-width*/
+
+    width: 1000px; /*set the width or max-width*/
     height: auto; /*this makes sure to maintain the aspect ratio*/
+
 }
 
+ .firstcolumn{
+ 	padding-bottom: 20px;
+ 	
+ 	
+ 	
+ }
+
+ .secondcolumn{
+
+ 	
+ }
 
 
+
+ 
+
+.thumbnails {
+border-style: solid;
+ 	border-width:thick;
+}
+
+.button {
+
+	
+	 color: red;
+	  text-align: center;
+
+}
