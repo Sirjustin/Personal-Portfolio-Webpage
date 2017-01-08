@@ -78,20 +78,23 @@ html, body, h1, h2,h3, h4, p, div{
 
     width: 1000px; 
     height: auto; 
-	    display: block;
-    margin-left: auto;
-    margin-right: auto 
 
 }
 
  .firstcolumn{
  	padding-bottom: 20px;
  	
- 	
+display: block;
+    margin-left: auto;
+    margin-right: auto 
+
  	
  }
 
  .secondcolumn{
+	    display: block;
+    margin-left: auto;
+    margin-right: auto 
 
  	
  }
