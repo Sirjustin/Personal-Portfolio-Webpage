@@ -59,7 +59,7 @@ html, body, h1, h2,h3, h4, p, div{
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline */
+  
   .nav li {
     display: inline-block;
     margin-right: -4px;
@@ -76,8 +76,11 @@ html, body, h1, h2,h3, h4, p, div{
 
 .image {
 
-    width: 1000px; /*set the width or max-width*/
-    height: auto; /*this makes sure to maintain the aspect ratio*/
+    width: 1000px; 
+    height: auto; 
+	    display: block;
+    margin-left: auto;
+    margin-right: auto 
 
 }
 
