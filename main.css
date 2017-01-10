@@ -72,20 +72,40 @@ html, body, h1, h2,h3, h4, p, div{
   background-color: #f8ca00;
 }
 
+@keyframes rockin {
+  0%   { transform: rotate(-30deg); }
+    50% { transform: rotate(30deg); }
+  100% { transform: rotate(-30deg); }
+  }
+}
 
 .myName{
 	font-family: 'Bungee Shade', cursive;
 	text-align: center;
 	font-size:large;
+   animation: rockin 2s infinite ease-in-out;
 	}
 	
+
+
+
+
+
 	
 .gallery{
   
   
  
 
+}@keyframes  {
+  0% {
+    transform: rotate(0deg);
+  }
+    100% {
+    transform: rotate(-30deg);
+  }
 }
+
 
 .image {
 
