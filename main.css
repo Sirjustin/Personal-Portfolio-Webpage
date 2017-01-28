@@ -6,6 +6,68 @@ html, body, h1, h2,h3, h4, p, div{
 
 }
 
+.column{
+
+  width: 33.33%;
+
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+
+.grid {
+
+  margin: 0 auto;
+
+  max-width: 1200px;
+
+  width: 100%;
+
+}
+
+.row {
+
+  display: -webkit-flex;
+
+  -webkit-flex-wrap: wrap;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  margin-bottom: 20px;
+
+}
+
+
+.project-row {
+
+  display: -webkit-flex;
+
+  -webkit-flex-wrap: wrap;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  text-align: center; 
+
+}
+
+
+
+
+
+
+
+
+
 
 .bar{
   font-size:40px;
@@ -83,10 +145,14 @@ html, body, h1, h2,h3, h4, p, div{
 	font-family: 'Bungee Shade', cursive;
 	text-align: center;
 	font-size:large;
-   animation: rockin 2s infinite ease-in-out;
+  
 	}
 	
-
+.tagline{
+font-size: small;
+  text-align: center;
+   animation: rockin 4s infinite ease-in-out;
+}
 
 
 
